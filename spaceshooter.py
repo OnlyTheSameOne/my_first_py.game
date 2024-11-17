@@ -2,8 +2,8 @@ import pygame
 
 pygame.init()
 # Dynamische Dsipalygröße als Parmeter für die set_mode
-display_height = 1080
-display_width = 720
+display_height = 720
+display_width = 1080
 
 #Fraben im RGB-System
 balck = (0,0,0)
@@ -16,7 +16,7 @@ pygame.display.set_caption("Space Shooter")
 #FPS bzw Ticks pro sekunde
 clock = pygame.time.Clock()
 #generiere das Space Ship in den Hintergrund
-spaceShip = pygame.image.load("puprle_ship.png")
+spaceShip = pygame.image.load("Charakter_models\output-onlinepngtools.png")
 
 #Funktion die Das SPaceShip mit der blit methode an dern psoition x & y erzeugt 
 #dabei ist spaceShip ein Parameter mit den werten von (x,y)
@@ -26,8 +26,8 @@ def ship(x,y):
 #Das kordinaten-System in Pygame starte oben link vom Bildschirm P(0/0)
 #Positve X werte bringen den den Punkt nach rechts
 #Positive Y werte bringen den Punk nach links
-x = (display_width * 0.45)
-y =  (display_height * 0.8) 
+x = (display_height  * 0.1)
+y =  (display_width * 0.1) 
 
 
 
