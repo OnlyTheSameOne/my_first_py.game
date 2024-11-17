@@ -1,9 +1,16 @@
 import pygame 
 
 pygame.init()
+# Dynamische Dsipalygröße als Parmeter für die set_mode
+display_height = 1080
+display_width = 720
+
+#Fraben im RGB-System
+balck = (0,0,0)
+white = (255,255,255)
 
 #setzt die bildschirmgöße fest
-gameDisplay = pygame.display.set_mode((1080,720))
+gameDisplay = pygame.display.set_mode((display_height,display_width))
 #Fenster name wird festgelegt
 pygame.display.set_caption("Space Shooter")
 #FPS bzw Ticks pro sekunde
