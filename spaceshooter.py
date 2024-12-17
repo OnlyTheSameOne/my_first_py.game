@@ -31,8 +31,6 @@ y =  (display_width * 0.1)
 
 
 
-
-
 #Das Raumschiff is nicht zerstört
 exploded = False 
 
